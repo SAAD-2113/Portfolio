@@ -898,17 +898,34 @@ h1, h2, h3, h4, h5 {
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    padding: 1rem 1.5rem;
+  }
+  .navbar.scrolled {
+    padding: 0.8rem 1.5rem;
+  }
+
   .section {
-    padding: 5rem 0;
+    padding: 4rem 1rem;
   }
   
   .landing {
     justify-content: flex-start;
-    padding-top: 8rem;
+    padding-top: 10rem;
   }
   
   .hero-name {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    margin-top: 2rem;
+  }
+  
+  .hero-designations {
+    font-size: 1.1rem;
+  }
+  
+  .hero-intro {
+    font-size: 1rem;
+    text-align: center;
   }
   
   .nav-links {
