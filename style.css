@@ -243,7 +243,6 @@ h1, h2, h3, h4, h5 {
   margin: 0 auto 3rem auto;
   font-size: 1.1rem;
   color: var(--color-text-secondary);
-  text-align: justify;
 }
 
 .cta-buttons {
@@ -318,7 +317,6 @@ h1, h2, h3, h4, h5 {
   font-size: 1.05rem;
   margin-bottom: 2rem;
   color: var(--color-text-secondary);
-  text-align: justify;
 }
 
 .mission-vision {
@@ -902,6 +900,11 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 768px) {
   .section {
     padding: 5rem 0;
+  }
+  
+  .landing {
+    justify-content: flex-start;
+    padding-top: 8rem;
   }
   
   .hero-name {
